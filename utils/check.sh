@@ -1,4 +1,4 @@
-# Shell script to check if all the process used for Elasticsearch are running - JJK 6/14/21
+# Shell script to check if all the processe used for Elasticsearch are running - JJK 6/14/21
 #
 echo -n "Elasticsearch: "; sudo systemctl is-active elasticsearch
 echo -n "Logstash: "; sudo systemctl is-active logstash
