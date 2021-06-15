@@ -81,7 +81,7 @@ sudo apt install openjdk-8-jre apt-transport-https wget
 ### Add the Elastic Repository
 **Step 5:** Elastic provides a complete repository for Debian based systems that includes all three pieces of software. You just need to add it to your system. Begin by importing their GPG key. 
 ```console
-$ wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 ```
 Next, add the repository. Create a file at /etc/apt/sources.list.d/elastic.list, and paste the following line into it. 
 ```console
