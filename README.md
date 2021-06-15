@@ -204,7 +204,7 @@ sudo systemctl enable nginx
 ```
 
 ### Sign in to Kibana
-**Step 8:** Open up your browser, and go to the address that you assigned to your Kibana instance in the Nginx configuration. You should be prompted to enter the username and password that you set up for Kibana. Enter them and you should be rewarded with the **Main** page:
+**Step 11:** Open up your browser, and go to the address that you assigned to your Kibana instance in the Nginx configuration. You should be prompted to enter the username and password that you set up for Kibana. Enter them and you should be rewarded with the **Main** page:
 ![Main Elasticsearch page](images/asa-main.png)
 
  Click on **Discover** and you should now see ASA syslog messages:
